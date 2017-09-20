@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
+require 'faker'
 
-puts "Hello world!"
+puts "Hello #{Faker::Name.name}"
